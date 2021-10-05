@@ -6,12 +6,20 @@
   box-sizing: border-box;
 }
 
+:root {
+  --font-family: "Signika", sans-serif;
+  --color-primary: #91c788;
+  --color-secondary: #ff8473;
+  --color-background: #e5e5e5;
+  --header-color: #000000;
+}
+
 html {
   font-size: 16px;
 }
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: var(--font-family);
   margin: 0;
 }
 
@@ -21,5 +29,5 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: var(--font-family);
 }
