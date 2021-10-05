@@ -1,37 +1,32 @@
-.favorite-card {
-  font-family: "Signika Negative", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 17px;
-  display: flex;
-  position: absolute;
-  background-color: #fff2f0;
-  width: 132px;
-  height: 144px;
-  border-radius: 32px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  left: 28px;
-  top: 100px;
-  gap: 12px;
+.cards-container {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 1rem;
 }
 
-.favorite-card2 {
-  font-family: "Signika Negative", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 17px;
-  display: flex;
-  position: absolute;
+.favorite-card--fruits {
+  background-color: #fff2f0;
+}
+
+.favorite-card--vegetables {
   background-color: #eff7ee;
-  width: 132px;
-  height: 144px;
-  border-radius: 32px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  left: 176px;
-  top: 100px;
-  gap: 12px;
+}
+
+.favorite-card {
+  display: grid;
+  width: 8.5rem;
+  height: 9rem;
+  border-radius: 20%;
+  justify-items: center;
+  align-content: center;
+}
+
+.favorite-card--snacks {
+  background: #fff8eb;
+}
+
+.favorite-card__inner {
+  display: grid;
+  justify-items: center;
+  row-gap: 0.8rem;
 }
