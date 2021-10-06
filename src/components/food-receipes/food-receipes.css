@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap");
+
+body {
+  font-family: var(--font-family);
+}
+
+.tabs-container {
+  display: grid;
+  row-gap: 1em;
+}
+
+.tabs {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 1em;
+  text-align: center;
+  overflow: hidden;
+}
+
+.tabs__tab {
+  padding: 1em;
+}
+
+.tabs__tab--active {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+}
+
+:root {
+  --font-family: "Signika", sans-serif;
+  --color-primary: #fff8ee;
+  --color-secondary: #ff9385;
+}

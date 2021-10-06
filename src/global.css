@@ -31,3 +31,9 @@ textarea {
   margin: 0;
   font-family: var(--font-family);
 }
+
+:root {
+  --font-family: "Signika", sans-serif;
+  --color-primary: #fff8ee;
+  --color-secondary: #ff9385;
+}
