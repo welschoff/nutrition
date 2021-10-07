@@ -5,18 +5,20 @@
 }
 
 .avatar__image {
-  position: absolute;
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
 }
 
 .circle__crown {
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   background-color: #ff9385;
   border-radius: 50%;
   border: 2px solid #ffff;
   position: absolute;
-  top: 132px;
-  left: 116px;
+  bottom: 4px;
+  right: 20px;
   display: grid;
   place-items: center;
 }
