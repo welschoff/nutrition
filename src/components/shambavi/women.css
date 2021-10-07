@@ -1,0 +1,22 @@
+.avatar {
+  position: relative;
+  width: 160px;
+  height: 160px;
+}
+
+.avatar__image {
+  position: absolute;
+}
+
+.circle__crown {
+  width: 24px;
+  height: 24px;
+  background-color: #ff9385;
+  border-radius: 50%;
+  border: 2px solid #ffff;
+  position: absolute;
+  top: 132px;
+  left: 116px;
+  display: grid;
+  place-items: center;
+}
